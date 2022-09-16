@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '0%nm@3303csxw1u1rv&w6pc$9tww53ppj)2n0e3ts@660z1*&$'
+SECRET_KEY = 'your key'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -92,7 +92,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'scrapy_info',
         'USER':'root',
-        'PASSWORD':'a123456',
+        'PASSWORD':'your password',
         'HOST':'127.0.0.1',
         'PORT':'3306'
     }
@@ -163,15 +163,15 @@ CORS_ALLOW_HEADERS = (
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-JWT_TOKEN_KEY = '123456'
+JWT_TOKEN_KEY = 'your key'
 
-GITHUB_CLIENT_ID = '0a75ddf02e0e17d9ddcd'
-GITHUB_CLIENT_SECRET = 'b1cc676d625de84e22934157ed138e788486ea1a'
+GITHUB_CLIENT_ID = ''
+GITHUB_CLIENT_SECRET = ''
 GITHUB_REDIRECT_URI = 'http:127.0.0.1:5000/customer/github/redirect'
 
-SMS_ACCOUNT = "class83108"
-SMS_PASSWORD = "qwer020518"
-SMS_TEST_PHONE = "0987203889"
+SMS_ACCOUNT = ""
+SMS_PASSWORD = ""
+SMS_TEST_PHONE = ""
 
 CACHES = {
     "default": {
@@ -187,6 +187,6 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'  #SMTP伺服器
 EMAIL_PORT = 587  #TLS通訊埠號
 EMAIL_USE_TLS = True  #開啟TLS(傳輸層安全性)
-EMAIL_HOST_USER = 'class83108@gmail.com'  #寄件者電子郵件
-EMAIL_HOST_PASSWORD = 'eewlktqpubkqnjrj'  #Gmail應用程式的密碼
+EMAIL_HOST_USER = ''  #寄件者電子郵件
+EMAIL_HOST_PASSWORD = ''  #Gmail應用程式的密碼
 
