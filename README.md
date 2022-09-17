@@ -17,6 +17,8 @@
 
 6.使用Django-apscheduler進行定時任務分發(訂閱系統)
 
+7.原本使用super
+
 網站的心智圖如下:
 ![image](https://user-images.githubusercontent.com/95297596/190856931-b272edf2-a98c-41d5-bc34-c3bc8670aaeb.png)
 
