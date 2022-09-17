@@ -17,7 +17,7 @@
 
 6.使用Django-apscheduler進行定時任務分發(訂閱系統)
 
-7.原本使用super
+7.原本使用supervisord來管控celery，雖然在虛擬環境可以背景執行，但在正式環境無法順利運作。因此直接讓celery後臺啟動
 
 網站的心智圖如下:
 ![image](https://user-images.githubusercontent.com/95297596/190856931-b272edf2-a98c-41d5-bc34-c3bc8670aaeb.png)
