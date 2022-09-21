@@ -26,3 +26,4 @@
 ![image](https://user-images.githubusercontent.com/95297596/190857669-807e8ea4-af98-48d9-b11d-e0f3baf1aae1.png)
 
 
+備註: 因使用簡訊王作為註冊時驗證手機號碼的服務，但在AWS上無法獲取相關ip，因此建議使用者使用Github登入
